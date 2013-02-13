@@ -1,0 +1,909 @@
+TTestApp
+v5
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Release-iphoneos/TestApp.app/ResourceRules.plist
+cProcessInfoPlistFile /Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/Info.plist TestApp/TestApp-Info.plist
+cProcessPCH /var/folders/1h/3v25wrjd19g3p1j8w2b207200000gt/C/com.apple.Xcode.506/SharedPrecompiledHeaders/TestApp-Prefix-effbisytodzylpbandpkwztmvrpz/TestApp-Prefix.pch.pth TestApp/TestApp-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/1h/3v25wrjd19g3p1j8w2b207200000gt/C/com.apple.Xcode.506/SharedPrecompiledHeaders/TestApp-Prefix-fthppyroyxicmldoybkbforoiila/TestApp-Prefix.pch.pth TestApp/TestApp-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/main.o /Users/vaibhavmehta/Desktop/TestApp/TestApp/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/AppDelegate.o /Users/vaibhavmehta/Desktop/TestApp/TestApp/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/main.o /Users/vaibhavmehta/Desktop/TestApp/TestApp/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/ViewController.o /Users/vaibhavmehta/Desktop/TestApp/TestApp/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/AppDelegate.o /Users/vaibhavmehta/Desktop/TestApp/TestApp/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/ViewController.o /Users/vaibhavmehta/Desktop/TestApp/TestApp/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/TestApp normal armv7
+cLd /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/TestApp normal armv7s
+cCreateUniversalBinary /Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/TestApp normal "armv7 armv7s"
+cGenerateDSYMFile /Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app.dSYM /Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/TestApp
+cCopyStringsFile /Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/en.lproj/InfoPlist.strings TestApp/en.lproj/InfoPlist.strings
+cCopyPNGFile /Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/Default.png TestApp/Default.png
+cCopyPNGFile /Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/Default@2x.png TestApp/Default@2x.png
+cCopyPNGFile /Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/Default-568h@2x.png TestApp/Default-568h@2x.png
+cCopyPNGFile /Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/icon.png icon.png
+cCompileXIB /Users/vaibhavmehta/Desktop/TestApp/TestApp/en.lproj/ViewController.xib
+cProcessProductPackaging "/Users/vaibhavmehta/Library/MobileDevice/Provisioning Profiles/EAC6D439-AA8D-44DC-AF67-7A3732C18F15.mobileprovision" /Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/vaibhavmehta/Library/MobileDevice/Provisioning Profiles/EAC6D439-AA8D-44DC-AF67-7A3732C18F15.mobileprovision" /Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/embedded.mobileprovision
+cTouch /Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp.xcent
+cCodeSign /Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app
+cValidate /Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk
+c00000000503C83D40000000000000132
+t1346143188
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist
+c0000000050C1268D0000000000000094
+t1354835597
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist
+c0000000050C1268D0000000000000096
+t1354835597
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000050C1268F0000000000322740
+t1354835599
+s3286848
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000050C1268F0000000000629C80
+t1354835599
+s6462592
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c0000000050C1268F00000000000015F7
+t1354835599
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c0000000050C126900000000000000E8D
+t1354835600
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000050C1269200000000011BA850
+t1354835602
+s18589776
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/Availability.h
+c0000000050C126940000000000001B54
+t1354835604
+s6996
+
+N/Users/vaibhav/Desktop/TestApp/TestApp/AppDelegate.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/vaibhav/Desktop/TestApp/TestApp/AppDelegate.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/vaibhav/Desktop/TestApp/TestApp/Default-568h@2x.png
+c0000000050262AB100000000000048A2
+t1344678577
+s18594
+
+N/Users/vaibhav/Desktop/TestApp/TestApp/Default.png
+c0000000050262AB1000000000000198C
+t1344678577
+s6540
+
+N/Users/vaibhav/Desktop/TestApp/TestApp/Default@2x.png
+c0000000050262AB10000000000003EEB
+t1344678577
+s16107
+
+N/Users/vaibhav/Desktop/TestApp/TestApp/TestApp-Prefix.pch
+c00000000511A1A3C000000000000013D
+t1360665148
+s317
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/vaibhav/Desktop/TestApp/TestApp/ViewController.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/vaibhav/Desktop/TestApp/TestApp/ViewController.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/vaibhav/Desktop/TestApp/TestApp/en.lproj/InfoPlist.strings
+c00000000511A1A3C000000000000002D
+t1360665148
+s45
+
+N/Users/vaibhav/Desktop/TestApp/TestApp/en.lproj/ViewController.xib
+c00000000511A1BB800000000000030A4
+t1360665528
+s12452
+
+N/Users/vaibhav/Desktop/TestApp/TestApp/main.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app
+t1360665875
+s408
+
+N/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app.dSYM
+t1360665872
+s102
+
+N/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/Default-568h@2x.png
+t1360665872
+s7014
+
+N/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/Default.png
+t1360665872
+s3688
+
+N/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/Default@2x.png
+t1360665872
+s6316
+
+N/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/Info.plist
+t1360665870
+s1060
+
+N/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/PkgInfo
+t1360665870
+s8
+
+N/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/ResourceRules.plist
+t1360665870
+s150
+
+N/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/TestApp
+t1360665875
+s73760
+
+N/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/embedded.mobileprovision
+t1360665874
+s29729
+
+N/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/en.lproj/InfoPlist.strings
+t1360665872
+s42
+
+N/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/en.lproj/ViewController.nib
+t1360665874
+s1400
+
+N/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/AppDelegate.o
+t1360665872
+s91004
+
+N/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/TestApp
+t1360665872
+s22596
+
+N/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/TestApp.LinkFileList
+c00000000511A1D0E000000000000015B
+t1360665870
+s347
+
+N/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/ViewController.o
+t1360665872
+s73000
+
+N/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/main.o
+t1360665872
+s3396
+
+N/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/AppDelegate.o
+t1360665872
+s91004
+
+N/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/TestApp
+t1360665872
+s22600
+
+N/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/TestApp.LinkFileList
+c00000000511A1D0E000000000000015E
+t1360665870
+s350
+
+N/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/ViewController.o
+t1360665872
+s73000
+
+N/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/main.o
+t1360665872
+s3396
+
+N/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp.xcent
+t1360665874
+s412
+
+N/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/vaibhav/Library/MobileDevice/Provisioning Profiles/EAC6D439-AA8D-44DC-AF67-7A3732C18F15.mobileprovision
+c00000000510F96840000000000007421
+t1359976068
+s29729
+
+N/Users/vaibhavmehta/Desktop/TestApp/TestApp/AppDelegate.h
+c00000000511A1A3C0000000000000165
+t1360665148
+s357
+
+N/Users/vaibhavmehta/Desktop/TestApp/TestApp/AppDelegate.m
+c00000000511A1A3C00000000000008F8
+t1360665148
+s2296
+
+N/Users/vaibhavmehta/Desktop/TestApp/TestApp/Default-568h@2x.png
+c0000000050262AB100000000000048A2
+t1344678577
+s18594
+
+N/Users/vaibhavmehta/Desktop/TestApp/TestApp/Default.png
+c0000000050262AB1000000000000198C
+t1344678577
+s6540
+
+N/Users/vaibhavmehta/Desktop/TestApp/TestApp/Default@2x.png
+c0000000050262AB10000000000003EEB
+t1344678577
+s16107
+
+N/Users/vaibhavmehta/Desktop/TestApp/TestApp/TestApp-Prefix.pch
+c00000000511A1A3C000000000000013D
+t1360665148
+s317
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/vaibhavmehta/Desktop/TestApp/TestApp/ViewController.h
+c00000000511A1A84000000000000010E
+t1360665220
+s270
+
+N/Users/vaibhavmehta/Desktop/TestApp/TestApp/ViewController.m
+c00000000511A1B320000000000000363
+t1360665394
+s867
+
+N/Users/vaibhavmehta/Desktop/TestApp/TestApp/en.lproj/InfoPlist.strings
+c00000000511A1A3C000000000000002D
+t1360665148
+s45
+
+N/Users/vaibhavmehta/Desktop/TestApp/TestApp/en.lproj/ViewController.xib
+c00000000511A1FF800000000000031B5
+t1360666616
+s12725
+
+N/Users/vaibhavmehta/Desktop/TestApp/TestApp/main.m
+c00000000511A1A3C0000000000000149
+t1360665148
+s329
+
+N/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app
+t1360741317
+s442
+
+N/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app.dSYM
+t1360741317
+s102
+
+N/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/Default-568h@2x.png
+t1360665872
+s7014
+
+N/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/Default.png
+t1360665872
+s3688
+
+N/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/Default@2x.png
+t1360665872
+s6316
+
+N/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/Info.plist
+t1360741317
+s1150
+
+N/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/PkgInfo
+t1360741317
+s8
+
+N/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/ResourceRules.plist
+t1360665870
+s150
+
+N/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/TestApp
+t1360741317
+s73792
+
+N/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/embedded.mobileprovision
+t1360666143
+s29729
+
+N/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/en.lproj/InfoPlist.strings
+t1360665872
+s42
+
+N/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/en.lproj/ViewController.nib
+t1360666963
+s1508
+
+N/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/icon.png
+t1360741317
+s7508
+
+N/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/AppDelegate.o
+t1360666143
+s91020
+
+N/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/TestApp
+t1360666143
+s22648
+
+N/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/TestApp.LinkFileList
+c00000000511A1E1E000000000000016A
+t1360666142
+s362
+
+N/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/ViewController.o
+t1360666143
+s73016
+
+N/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/main.o
+t1360666143
+s3412
+
+N/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/AppDelegate.o
+t1360666143
+s91020
+
+N/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/TestApp
+t1360666143
+s22648
+
+N/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/TestApp.LinkFileList
+c00000000511A1E1E000000000000016D
+t1360666142
+s365
+
+N/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/ViewController.o
+t1360666143
+s73016
+
+N/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/main.o
+t1360666143
+s3412
+
+N/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp.xcent
+t1360741317
+s406
+
+N/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/vaibhavmehta/Desktop/TestApp/icon.png
+c00000000511B442B000000000000219F
+t1360741419
+s8607
+
+N/Users/vaibhavmehta/Library/MobileDevice/Provisioning Profiles/EAC6D439-AA8D-44DC-AF67-7A3732C18F15.mobileprovision
+c00000000511A1D800000000000007421
+t1360665984
+s29729
+
+N/var/folders/1h/3v25wrjd19g3p1j8w2b207200000gt/C/com.apple.Xcode.506/SharedPrecompiledHeaders/TestApp-Prefix-effbisytodzylpbandpkwztmvrpz/TestApp-Prefix.pch.pth
+t1360666143
+s4772308
+
+N/var/folders/1h/3v25wrjd19g3p1j8w2b207200000gt/C/com.apple.Xcode.506/SharedPrecompiledHeaders/TestApp-Prefix-fthppyroyxicmldoybkbforoiila/TestApp-Prefix.pch.pth
+t1360666143
+s4772448
+
+N/var/folders/fw/fd3d6wnx03s1skw9hnvnp97c0000gt/C/com.apple.Xcode.506/SharedPrecompiledHeaders/TestApp-Prefix-adsqfparyxavqwcnxzmihfxldtdp/TestApp-Prefix.pch.pth
+t1360665871
+s4772400
+
+N/var/folders/fw/fd3d6wnx03s1skw9hnvnp97c0000gt/C/com.apple.Xcode.506/SharedPrecompiledHeaders/TestApp-Prefix-ejyvscmjksbghgfkrrklvpjapqgg/TestApp-Prefix.pch.pth
+t1360665871
+s4772260
+
+NTestApp/TestApp-Info.plist
+c00000000511B442B000000000000055B
+t1360741419
+s1371
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies7dcc23ac7bcbb641^8f8e5bac7bcbb641^---0#1#0#--18"Check dependencies36"B6512C70-81D5-4515-98BB-06B23EB4E9BD-
+
+CCodeSign /Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app
+s382358719.840701
+e382358720.373389
+r1
+xCodeSign
+x/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app
+o/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app: replacing existing signature
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"CodeSign build/Release-iphoneos/TestApp.appc154d7bf54cab641^6aa25fc054cab641^-95"/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app: replacing existing signature-0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/0000000000000000^792"CodeSign build/Release-iphoneos/TestApp.app    cd /Users/vaibhav/Desktop/TestApp    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /usr/bin/codesign --force --sign 8626a00c725864c5edf547cb71ae191f00a25362 --resource-rules=/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/ResourceRules.plist --entitlements /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp.xcent /Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app36"8D27AD1B-71C6-4C3D-9D45-9E8A2E3A1676-
+
+CCodeSign /Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app
+s382434220.491111
+e382434220.617972
+r1
+xCodeSign
+x/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app
+o/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app: replacing existing signature
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"CodeSign build/Release-iphoneos/TestApp.appc5c97dac7bcbb641^11389eac7bcbb641^-100"/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app: replacing existing signature-0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/0000000000000000^818"CodeSign build/Release-iphoneos/TestApp.app    cd /Users/vaibhavmehta/Desktop/TestApp    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /usr/bin/codesign --force --sign 8626a00c725864c5edf547cb71ae191f00a25362 --resource-rules=/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/ResourceRules.plist --entitlements /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp.xcent /Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app36"DF1924ED-65D0-4DE2-8DE4-213E140BAFC1-
+
+CCompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/AppDelegate.o /Users/vaibhav/Desktop/TestApp/TestApp/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382358671.902576
+e382358672.113447
+r1
+xCompileC
+xbuild/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/AppDelegate.o
+x/Users/vaibhav/Desktop/TestApp/TestApp/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/vaibhav/Desktop/TestApp/TestApp/AppDelegate.m1c40e78f54cab641^611b1d9054cab641^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Users/vaibhav/Desktop/TestApp/TestApp/AppDelegate.m0000000000000000^3330"CompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/AppDelegate.o TestApp/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vaibhav/Desktop/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-project-headers.hmap -I/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources/armv7 -I/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources -F/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fw/fd3d6wnx03s1skw9hnvnp97c0000gt/C/com.apple.Xcode.506/SharedPrecompiledHeaders/TestApp-Prefix-ejyvscmjksbghgfkrrklvpjapqgg/TestApp-Prefix.pch -MMD -MT dependencies -MF /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/AppDelegate.dia -c /Users/vaibhav/Desktop/TestApp/TestApp/AppDelegate.m -o /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/AppDelegate.o36"1677CD18-5019-4B78-B174-701D5B8723BF-
+
+CCompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/AppDelegate.o /Users/vaibhavmehta/Desktop/TestApp/TestApp/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382358943.022294
+e382358943.216806
+r1
+xCompileC
+xbuild/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/AppDelegate.o
+x/Users/vaibhavmehta/Desktop/TestApp/TestApp/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/vaibhavmehta/Desktop/TestApp/TestApp/AppDelegate.m02d3059f55cab641^cb80379f55cab641^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Users/vaibhavmehta/Desktop/TestApp/TestApp/AppDelegate.m0000000000000000^3401"CompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/AppDelegate.o TestApp/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vaibhavmehta/Desktop/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-project-headers.hmap -I/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources/armv7 -I/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources -F/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1h/3v25wrjd19g3p1j8w2b207200000gt/C/com.apple.Xcode.506/SharedPrecompiledHeaders/TestApp-Prefix-effbisytodzylpbandpkwztmvrpz/TestApp-Prefix.pch -MMD -MT dependencies -MF /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/AppDelegate.dia -c /Users/vaibhavmehta/Desktop/TestApp/TestApp/AppDelegate.m -o /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/AppDelegate.o36"73C0B7E9-139A-4078-A67B-97B498B236D5-
+
+CCompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/ViewController.o /Users/vaibhav/Desktop/TestApp/TestApp/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382358672.042451
+e382358672.123321
+r1
+xCompileC
+xbuild/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/ViewController.o
+x/Users/vaibhav/Desktop/TestApp/TestApp/ViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/vaibhav/Desktop/TestApp/TestApp/ViewController.m78080b9054cab641^38a21f9054cab641^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/vaibhav/Desktop/TestApp/TestApp/ViewController.m0000000000000000^3348"CompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/ViewController.o TestApp/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vaibhav/Desktop/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-project-headers.hmap -I/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources/armv7 -I/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources -F/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fw/fd3d6wnx03s1skw9hnvnp97c0000gt/C/com.apple.Xcode.506/SharedPrecompiledHeaders/TestApp-Prefix-ejyvscmjksbghgfkrrklvpjapqgg/TestApp-Prefix.pch -MMD -MT dependencies -MF /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/ViewController.d --serialize-diagnostics /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/ViewController.dia -c /Users/vaibhav/Desktop/TestApp/TestApp/ViewController.m -o /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/ViewController.o36"D87B2206-3EF1-4183-969D-3BAC02C2154F-
+
+CCompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/ViewController.o /Users/vaibhavmehta/Desktop/TestApp/TestApp/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382358943.022285
+e382358943.214488
+r1
+xCompileC
+xbuild/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/ViewController.o
+x/Users/vaibhavmehta/Desktop/TestApp/TestApp/ViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/vaibhavmehta/Desktop/TestApp/TestApp/ViewController.ma6d4059f55cab641^59f8369f55cab641^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/vaibhavmehta/Desktop/TestApp/TestApp/ViewController.m0000000000000000^3419"CompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/ViewController.o TestApp/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vaibhavmehta/Desktop/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-project-headers.hmap -I/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources/armv7 -I/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources -F/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1h/3v25wrjd19g3p1j8w2b207200000gt/C/com.apple.Xcode.506/SharedPrecompiledHeaders/TestApp-Prefix-effbisytodzylpbandpkwztmvrpz/TestApp-Prefix.pch -MMD -MT dependencies -MF /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/ViewController.d --serialize-diagnostics /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/ViewController.dia -c /Users/vaibhavmehta/Desktop/TestApp/TestApp/ViewController.m -o /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/ViewController.o36"F47843FC-2ECA-4A09-8CB9-A91223B4432E-
+
+CCompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/main.o /Users/vaibhav/Desktop/TestApp/TestApp/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382358671.800169
+e382358672.040695
+r1
+xCompileC
+xbuild/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/main.o
+x/Users/vaibhav/Desktop/TestApp/TestApp/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Compile /Users/vaibhav/Desktop/TestApp/TestApp/main.mea03cd8f54cab641^48a30a9054cab641^---0#0#0#-19%DVTDocumentLocation2@61"file://localhost/Users/vaibhav/Desktop/TestApp/TestApp/main.m0000000000000000^3288"CompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/main.o TestApp/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vaibhav/Desktop/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-project-headers.hmap -I/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources/armv7 -I/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources -F/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fw/fd3d6wnx03s1skw9hnvnp97c0000gt/C/com.apple.Xcode.506/SharedPrecompiledHeaders/TestApp-Prefix-ejyvscmjksbghgfkrrklvpjapqgg/TestApp-Prefix.pch -MMD -MT dependencies -MF /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/main.dia -c /Users/vaibhav/Desktop/TestApp/TestApp/main.m -o /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/main.o36"1FA9578F-58C7-4BB9-9443-FF1CF2995CA9-
+
+CCompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/main.o /Users/vaibhavmehta/Desktop/TestApp/TestApp/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382358943.022299
+e382358943.197966
+r1
+xCompileC
+xbuild/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/main.o
+x/Users/vaibhavmehta/Desktop/TestApp/TestApp/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Compile /Users/vaibhavmehta/Desktop/TestApp/TestApp/main.me9d4059f55cab641^5fb5329f55cab641^---0#0#0#-19%DVTDocumentLocation2@66"file://localhost/Users/vaibhavmehta/Desktop/TestApp/TestApp/main.m0000000000000000^3359"CompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/main.o TestApp/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vaibhavmehta/Desktop/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-project-headers.hmap -I/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources/armv7 -I/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources -F/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1h/3v25wrjd19g3p1j8w2b207200000gt/C/com.apple.Xcode.506/SharedPrecompiledHeaders/TestApp-Prefix-effbisytodzylpbandpkwztmvrpz/TestApp-Prefix.pch -MMD -MT dependencies -MF /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/main.dia -c /Users/vaibhavmehta/Desktop/TestApp/TestApp/main.m -o /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/main.o36"F410C6E1-E7D2-4DC6-B55F-3B910DB28CD4-
+
+CCompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/AppDelegate.o /Users/vaibhav/Desktop/TestApp/TestApp/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382358672.124858
+e382358672.227724
+r1
+xCompileC
+xbuild/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/AppDelegate.o
+x/Users/vaibhav/Desktop/TestApp/TestApp/AppDelegate.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/vaibhav/Desktop/TestApp/TestApp/AppDelegate.ma41c209054cab641^6c5d3a9054cab641^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Users/vaibhav/Desktop/TestApp/TestApp/AppDelegate.m0000000000000000^3337"CompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/AppDelegate.o TestApp/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vaibhav/Desktop/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-project-headers.hmap -I/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources/armv7s -I/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources -F/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fw/fd3d6wnx03s1skw9hnvnp97c0000gt/C/com.apple.Xcode.506/SharedPrecompiledHeaders/TestApp-Prefix-adsqfparyxavqwcnxzmihfxldtdp/TestApp-Prefix.pch -MMD -MT dependencies -MF /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/AppDelegate.d --serialize-diagnostics /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/AppDelegate.dia -c /Users/vaibhav/Desktop/TestApp/TestApp/AppDelegate.m -o /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/AppDelegate.o36"E84FB0E3-AD20-492E-A3B7-ED6C1E97FE7F-
+
+CCompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/AppDelegate.o /Users/vaibhavmehta/Desktop/TestApp/TestApp/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382358943.199258
+e382358943.268033
+r1
+xCompileC
+xbuild/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/AppDelegate.o
+x/Users/vaibhavmehta/Desktop/TestApp/TestApp/AppDelegate.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/vaibhavmehta/Desktop/TestApp/TestApp/AppDelegate.m7e1e339f55cab641^f19d449f55cab641^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Users/vaibhavmehta/Desktop/TestApp/TestApp/AppDelegate.m0000000000000000^3408"CompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/AppDelegate.o TestApp/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vaibhavmehta/Desktop/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-project-headers.hmap -I/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources/armv7s -I/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources -F/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1h/3v25wrjd19g3p1j8w2b207200000gt/C/com.apple.Xcode.506/SharedPrecompiledHeaders/TestApp-Prefix-fthppyroyxicmldoybkbforoiila/TestApp-Prefix.pch -MMD -MT dependencies -MF /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/AppDelegate.d --serialize-diagnostics /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/AppDelegate.dia -c /Users/vaibhavmehta/Desktop/TestApp/TestApp/AppDelegate.m -o /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/AppDelegate.o36"7B2F2FFE-335D-4C7E-9FAC-748C11A6D87D-
+
+CCompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/ViewController.o /Users/vaibhav/Desktop/TestApp/TestApp/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382358672.217212
+e382358672.292348
+r1
+xCompileC
+xbuild/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/ViewController.o
+x/Users/vaibhav/Desktop/TestApp/TestApp/ViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/vaibhav/Desktop/TestApp/TestApp/ViewController.m27c1379054cab641^f5d84a9054cab641^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/vaibhav/Desktop/TestApp/TestApp/ViewController.m0000000000000000^3355"CompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/ViewController.o TestApp/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vaibhav/Desktop/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-project-headers.hmap -I/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources/armv7s -I/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources -F/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fw/fd3d6wnx03s1skw9hnvnp97c0000gt/C/com.apple.Xcode.506/SharedPrecompiledHeaders/TestApp-Prefix-adsqfparyxavqwcnxzmihfxldtdp/TestApp-Prefix.pch -MMD -MT dependencies -MF /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/ViewController.d --serialize-diagnostics /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/ViewController.dia -c /Users/vaibhav/Desktop/TestApp/TestApp/ViewController.m -o /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/ViewController.o36"61F3BEC4-7DE1-46C0-ADA7-00E86795A62E-
+
+CCompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/ViewController.o /Users/vaibhavmehta/Desktop/TestApp/TestApp/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382358943.199241
+e382358943.259491
+r1
+xCompileC
+xbuild/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/ViewController.o
+x/Users/vaibhavmehta/Desktop/TestApp/TestApp/ViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/vaibhavmehta/Desktop/TestApp/TestApp/ViewController.md521339f55cab641^ee79429f55cab641^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/vaibhavmehta/Desktop/TestApp/TestApp/ViewController.m0000000000000000^3426"CompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/ViewController.o TestApp/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vaibhavmehta/Desktop/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-project-headers.hmap -I/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources/armv7s -I/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources -F/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1h/3v25wrjd19g3p1j8w2b207200000gt/C/com.apple.Xcode.506/SharedPrecompiledHeaders/TestApp-Prefix-fthppyroyxicmldoybkbforoiila/TestApp-Prefix.pch -MMD -MT dependencies -MF /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/ViewController.d --serialize-diagnostics /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/ViewController.dia -c /Users/vaibhavmehta/Desktop/TestApp/TestApp/ViewController.m -o /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/ViewController.o36"466E4535-608B-4E52-BBC7-CA5031667074-
+
+CCompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/main.o /Users/vaibhav/Desktop/TestApp/TestApp/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382358672.114922
+e382358672.145748
+r1
+xCompileC
+xbuild/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/main.o
+x/Users/vaibhav/Desktop/TestApp/TestApp/main.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Compile /Users/vaibhav/Desktop/TestApp/TestApp/main.m8a911d9054cab641^a25d259054cab641^---0#0#0#-19%DVTDocumentLocation2@61"file://localhost/Users/vaibhav/Desktop/TestApp/TestApp/main.m0000000000000000^3295"CompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/main.o TestApp/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vaibhav/Desktop/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-project-headers.hmap -I/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources/armv7s -I/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources -F/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/fw/fd3d6wnx03s1skw9hnvnp97c0000gt/C/com.apple.Xcode.506/SharedPrecompiledHeaders/TestApp-Prefix-adsqfparyxavqwcnxzmihfxldtdp/TestApp-Prefix.pch -MMD -MT dependencies -MF /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/main.d --serialize-diagnostics /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/main.dia -c /Users/vaibhav/Desktop/TestApp/TestApp/main.m -o /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/main.o36"78A9D400-11FF-4459-A30F-9FE29D36B55D-
+
+CCompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/main.o /Users/vaibhavmehta/Desktop/TestApp/TestApp/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382358943.022806
+e382358943.197924
+r1
+xCompileC
+xbuild/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/main.o
+x/Users/vaibhavmehta/Desktop/TestApp/TestApp/main.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Compile /Users/vaibhavmehta/Desktop/TestApp/TestApp/main.m31ef059f55cab641^b0ae329f55cab641^---0#0#0#-19%DVTDocumentLocation2@66"file://localhost/Users/vaibhavmehta/Desktop/TestApp/TestApp/main.m0000000000000000^3366"CompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/main.o TestApp/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vaibhavmehta/Desktop/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-project-headers.hmap -I/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources/armv7s -I/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources -F/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/1h/3v25wrjd19g3p1j8w2b207200000gt/C/com.apple.Xcode.506/SharedPrecompiledHeaders/TestApp-Prefix-fthppyroyxicmldoybkbforoiila/TestApp-Prefix.pch -MMD -MT dependencies -MF /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/main.d --serialize-diagnostics /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/main.dia -c /Users/vaibhavmehta/Desktop/TestApp/TestApp/main.m -o /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/main.o36"402D58F5-5E2A-4194-BB2A-42CBED3A38BE-
+
+CCompileXIB /Users/vaibhav/Desktop/TestApp/TestApp/en.lproj/ViewController.xib
+s382358672.568515
+e382358674.859859
+r1
+xCompileXIB
+x/Users/vaibhav/Desktop/TestApp/TestApp/en.lproj/ViewController.xib
+o2013-02-12 16:14:34.303 Interface Builder Cocoa Touch Tool[3717:14603] CFPreferences: user home directory at file://localhost/Users/vaibhav/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compiling /Users/vaibhav/Desktop/TestApp/TestApp/en.lproj/ViewController.xib51a2919054cab641^18b0dc9254cab641^-241"2013-02-12 16:14:34.303 Interface Builder Cocoa Touch Tool[3717:14603] CFPreferences: user home directory at file://localhost/Users/vaibhav/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/vaibhav/Desktop/TestApp/TestApp/en.lproj/ViewController.xib0000000000000000^847"CompileXIB TestApp/en.lproj/ViewController.xib    cd /Users/vaibhav/Desktop/TestApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/en.lproj/ViewController.nib /Users/vaibhav/Desktop/TestApp/TestApp/en.lproj/ViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk36"E59D4960-8DA9-4233-B33B-122A5AB6E0ED-
+
+CCompileXIB /Users/vaibhavmehta/Desktop/TestApp/TestApp/en.lproj/ViewController.xib
+s382359761.440461
+e382359763.698586
+r1
+xCompileXIB
+x/Users/vaibhavmehta/Desktop/TestApp/TestApp/en.lproj/ViewController.xib
+o2013-02-12 16:32:43.307 Interface Builder Cocoa Touch Tool[6947:f07] CFPreferences: user home directory at file://localhost/Users/vaibhavmehta/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compiling /Users/vaibhavmehta/Desktop/TestApp/TestApp/en.lproj/ViewController.xibd6e170d158cab641^9c51b3d358cab641^-244"2013-02-12 16:32:43.307 Interface Builder Cocoa Touch Tool[6947:f07] CFPreferences: user home directory at file://localhost/Users/vaibhavmehta/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/vaibhavmehta/Desktop/TestApp/TestApp/en.lproj/ViewController.xib0000000000000000^868"CompileXIB TestApp/en.lproj/ViewController.xib    cd /Users/vaibhavmehta/Desktop/TestApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/en.lproj/ViewController.nib /Users/vaibhavmehta/Desktop/TestApp/TestApp/en.lproj/ViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk36"56C025E5-7E4B-4D0A-BB2C-D37FA17B8172-
+
+CCopyPNGFile /Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/Default-568h@2x.png TestApp/Default-568h@2x.png
+s382358672.517918
+e382358672.625538
+r1
+xCopyPNGFile
+x/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/Default-568h@2x.png
+xTestApp/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"CopyPNGFile build/Release-iphoneos/TestApp.app/Default-568h@2x.png TestApp/Default-568h@2x.pngb0ac849054cab641^d923a09054cab641^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/vaibhav/Desktop/TestApp/TestApp/Default-568h@2x.png0000000000000000^616"CopyPNGFile "build/Release-iphoneos/TestApp.app/Default-568h@2x.png" "TestApp/Default-568h@2x.png"    cd /Users/vaibhav/Desktop/TestApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/vaibhav/Desktop/TestApp/TestApp/Default-568h@2x.png" "/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/Default-568h@2x.png"36"B40BC125-C2EF-45AD-8A68-C8D47916C78B-
+
+CCopyPNGFile /Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/Default.png TestApp/Default.png
+s382358672.407233
+e382358672.516667
+r1
+xCopyPNGFile
+x/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/Default.png
+xTestApp/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"CopyPNGFile build/Release-iphoneos/TestApp.app/Default.png TestApp/Default.pngac54689054cab641^eb55849054cab641^---0#0#0#-19%DVTDocumentLocation2@66"file://localhost/Users/vaibhav/Desktop/TestApp/TestApp/Default.png0000000000000000^576"CopyPNGFile build/Release-iphoneos/TestApp.app/Default.png TestApp/Default.png    cd /Users/vaibhav/Desktop/TestApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/vaibhav/Desktop/TestApp/TestApp/Default.png /Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/Default.png36"30132DD6-22A2-4C84-8198-7A32CF7EB4C8-
+
+CCopyPNGFile /Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/Default@2x.png TestApp/Default@2x.png
+s382358672.412591
+e382358672.567235
+r1
+xCopyPNGFile
+x/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/Default@2x.png
+xTestApp/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"CopyPNGFile build/Release-iphoneos/TestApp.app/Default@2x.png TestApp/Default@2x.pngc3b6699054cab641^c636919054cab641^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/vaibhav/Desktop/TestApp/TestApp/Default@2x.png0000000000000000^596"CopyPNGFile "build/Release-iphoneos/TestApp.app/Default@2x.png" "TestApp/Default@2x.png"    cd /Users/vaibhav/Desktop/TestApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/vaibhav/Desktop/TestApp/TestApp/Default@2x.png" "/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/Default@2x.png"36"08ABF502-2388-4530-B4D5-60769E193EDE-
+
+CCopyPNGFile /Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/Default-568h@2x.png TestApp/Default-568h@2x.png
+r0
+
+CCopyPNGFile /Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/Default.png TestApp/Default.png
+r0
+
+CCopyPNGFile /Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/Default@2x.png TestApp/Default@2x.png
+r0
+
+CCopyPNGFile /Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/icon.png icon.png
+s382434220.417727
+e382434220.443210
+r1
+xCopyPNGFile
+x/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/icon.png
+xicon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"CopyPNGFile build/Release-iphoneos/TestApp.app/icon.png icon.png280b6bac7bcbb641^1c7871ac7bcbb641^---0#0#0#-19%DVTDocumentLocation2@60"file://localhost/Users/vaibhavmehta/Desktop/TestApp/icon.png0000000000000000^569"CopyPNGFile build/Release-iphoneos/TestApp.app/icon.png icon.png    cd /Users/vaibhavmehta/Desktop/TestApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/vaibhavmehta/Desktop/TestApp/icon.png /Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/icon.png36"18F70770-3027-4B46-A4DE-37388BA9CE4D-
+
+CCopyStringsFile /Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/en.lproj/InfoPlist.strings TestApp/en.lproj/InfoPlist.strings
+s382358672.406652
+e382358672.410790
+r1
+xCopyStringsFile
+x/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/en.lproj/InfoPlist.strings
+xTestApp/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy TestApp/en.lproj/InfoPlist.strings4c34689054cab641^8b34699054cab641^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/vaibhav/Desktop/TestApp/TestApp/en.lproj/InfoPlist.strings0000000000000000^570"CopyStringsFile build/Release-iphoneos/TestApp.app/en.lproj/InfoPlist.strings TestApp/en.lproj/InfoPlist.strings    cd /Users/vaibhav/Desktop/TestApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/en.lproj -- TestApp/en.lproj/InfoPlist.strings36"68CD970C-5D60-4F00-8502-8CACDA1AB0B0-
+
+CCopyStringsFile /Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/en.lproj/InfoPlist.strings TestApp/en.lproj/InfoPlist.strings
+r0
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Release-iphoneos/TestApp.app/ResourceRules.plist
+s382358670.864735
+e382358670.867878
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist
+xbuild/Release-iphoneos/TestApp.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Release-iphoneos/TestApp.app/ResourceRules.plistaa7edd8e54cab641^793bde8e54cab641^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/ResourceRules.plist0000800093041042^868"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Release-iphoneos/TestApp.app/ResourceRules.plist    cd /Users/vaibhav/Desktop/TestApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist /Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app36"A1533B76-3E80-4211-912F-926853E4CFE4-
+
+CCreateUniversalBinary /Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/TestApp normal "armv7 armv7s"
+s382358672.334108
+e382358672.359357
+r1
+xCreateUniversalBinary
+x/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/TestApp
+xnormal
+xarmv7 armv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Create universal binary /Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/TestApp38a4559054cab641^a0fe5b9054cab641^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/TestApp000000000080d041^663"CreateUniversalBinary build/Release-iphoneos/TestApp.app/TestApp normal "armv7 armv7s"    cd /Users/vaibhav/Desktop/TestApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    lipo -create /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/TestApp /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/TestApp -output /Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/TestApp36"EB2771CA-86D5-4E20-B5A2-63F772378851-
+
+CCreateUniversalBinary /Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/TestApp normal "armv7 armv7s"
+s382358943.303174
+e382358943.318428
+r1
+xCreateUniversalBinary
+x/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/TestApp
+xnormal
+xarmv7 armv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Create universal binary /Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/TestAppd9b14d9f55cab641^b284519f55cab641^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/TestApp0000000000000000^689"CreateUniversalBinary build/Release-iphoneos/TestApp.app/TestApp normal "armv7 armv7s"    cd /Users/vaibhavmehta/Desktop/TestApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    lipo -create /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/TestApp /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/TestApp -output /Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/TestApp36"306951CB-04EE-4F60-9CFD-31E528F30168-
+
+CGenerateDSYMFile /Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app.dSYM /Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/TestApp
+s382358719.726284
+e382358719.757897
+r1
+xGenerateDSYMFile
+x/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app.dSYM
+x/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/TestApp
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Generating /Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app.dSYM1c26babf54cab641^4f07c2bf54cab641^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app.dSYM/0000000000000000^602"GenerateDSYMFile build/Release-iphoneos/TestApp.app.dSYM build/Release-iphoneos/TestApp.app/TestApp    cd /Users/vaibhav/Desktop/TestApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/TestApp -o /Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app.dSYM36"A57D4C0A-C3A5-4BCC-B604-78DEF279D8F3-
+
+CGenerateDSYMFile /Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app.dSYM /Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/TestApp
+s382434117.564700
+e382434117.588971
+r1
+xGenerateDSYMFile
+x/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app.dSYM
+x/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/TestApp
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Generating /Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app.dSYM71ab90457bcbb641^54c796457bcbb641^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app.dSYM/0000000000000000^623"GenerateDSYMFile build/Release-iphoneos/TestApp.app.dSYM build/Release-iphoneos/TestApp.app/TestApp    cd /Users/vaibhavmehta/Desktop/TestApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/TestApp -o /Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app.dSYM36"5C02710E-022C-4D82-868E-8CB315160AFA-
+
+CLd /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/TestApp normal armv7
+s382358672.146951
+e382358672.215892
+r1
+xLd
+x/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/TestApp
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Link /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/TestAppeeee259054cab641^0551379054cab641^---0#0#0#--1106"Ld build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/TestApp normal armv7    cd /Users/vaibhav/Desktop/TestApp    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -L/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos -F/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos -filelist /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/TestApp.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=6.0 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/TestApp36"B2DE4522-DBE1-4832-A7C9-FE9C762934E8-
+
+CLd /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/TestApp normal armv7s
+s382358672.298663
+e382358672.326524
+r1
+xLd
+x/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/TestApp
+xnormal
+xarmv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Link /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/TestApp218f4c9054cab641^19a9539054cab641^---0#0#0#--1111"Ld build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/TestApp normal armv7s    cd /Users/vaibhav/Desktop/TestApp    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -L/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos -F/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos -filelist /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/TestApp.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=6.0 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/TestApp36"C655D87A-9594-400D-A308-9E062B7E1822-
+
+CLd /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/TestApp normal armv7
+s382358943.223512
+e382358943.269205
+r1
+xLd
+x/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/TestApp
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Link /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/TestAppb64d399f55cab641^25eb449f55cab641^---0#0#0#--1137"Ld build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/TestApp normal armv7    cd /Users/vaibhavmehta/Desktop/TestApp    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -L/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos -F/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos -filelist /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/TestApp.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=6.0 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/TestApp36"17B6339D-0258-42FF-ADB6-1761EBCD1B03-
+
+CLd /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/TestApp normal armv7s
+s382358943.274774
+e382358943.296456
+r1
+xLd
+x/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/TestApp
+xnormal
+xarmv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Link /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/TestAppfd6a469f55cab641^21e54b9f55cab641^---0#0#0#--1142"Ld build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/TestApp normal armv7s    cd /Users/vaibhavmehta/Desktop/TestApp    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -L/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos -F/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos -filelist /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/TestApp.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=6.0 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7s/TestApp36"2F3DAECE-3D46-420B-B081-24ECA665E737-
+
+CProcessInfoPlistFile /Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/Info.plist TestApp/TestApp-Info.plist
+s382358719.682286
+e382358719.686925
+r1
+xProcessInfoPlistFile
+x/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/Info.plist
+xTestApp/TestApp-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Process TestApp/TestApp-Info.plista7cbaebf54cab641^d3dbafbf54cab641^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Users/vaibhav/Desktop/TestApp/TestApp/TestApp-Info.plist0000000000000000^730"ProcessInfoPlistFile build/Release-iphoneos/TestApp.app/Info.plist TestApp/TestApp-Info.plist    cd /Users/vaibhav/Desktop/TestApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-infoPlistUtility TestApp/TestApp-Info.plist -genpkginfo /Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/ResourceRules.plist -o /Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/Info.plist36"4423D518-BC53-4220-AD69-F6026C2E93A9-
+
+CProcessInfoPlistFile /Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/Info.plist TestApp/TestApp-Info.plist
+s382434220.366527
+e382434220.369531
+r1
+xProcessInfoPlistFile
+x/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/Info.plist
+xTestApp/TestApp-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Process TestApp/TestApp-Info.plist4aed5dac7bcbb641^d9995eac7bcbb641^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/vaibhavmehta/Desktop/TestApp/TestApp/TestApp-Info.plist0000000000000000^756"ProcessInfoPlistFile build/Release-iphoneos/TestApp.app/Info.plist TestApp/TestApp-Info.plist    cd /Users/vaibhavmehta/Desktop/TestApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility TestApp/TestApp-Info.plist -genpkginfo /Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/ResourceRules.plist -o /Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/Info.plist36"F3BEFF76-17C4-45C0-BEB0-98335F297460-
+
+CProcessPCH /var/folders/1h/3v25wrjd19g3p1j8w2b207200000gt/C/com.apple.Xcode.506/SharedPrecompiledHeaders/TestApp-Prefix-effbisytodzylpbandpkwztmvrpz/TestApp-Prefix.pch.pth TestApp/TestApp-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382358942.766364
+e382358943.015820
+r1
+xProcessPCH
+x/var/folders/1h/3v25wrjd19g3p1j8w2b207200000gt/C/com.apple.Xcode.506/SharedPrecompiledHeaders/TestApp-Prefix-effbisytodzylpbandpkwztmvrpz/TestApp-Prefix.pch.pth
+xTestApp/TestApp-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile TestApp/TestApp-Prefix.pch4451c49e55cab641^e00e049f55cab641^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/vaibhavmehta/Desktop/TestApp/TestApp/TestApp-Prefix.pch0000000000000000^3442"ProcessPCH /var/folders/1h/3v25wrjd19g3p1j8w2b207200000gt/C/com.apple.Xcode.506/SharedPrecompiledHeaders/TestApp-Prefix-effbisytodzylpbandpkwztmvrpz/TestApp-Prefix.pch.pth TestApp/TestApp-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vaibhavmehta/Desktop/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-project-headers.hmap -I/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources/armv7 -I/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources -F/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 --serialize-diagnostics /var/folders/1h/3v25wrjd19g3p1j8w2b207200000gt/C/com.apple.Xcode.506/SharedPrecompiledHeaders/TestApp-Prefix-effbisytodzylpbandpkwztmvrpz/TestApp-Prefix.pch.dia -c /Users/vaibhavmehta/Desktop/TestApp/TestApp/TestApp-Prefix.pch -o /var/folders/1h/3v25wrjd19g3p1j8w2b207200000gt/C/com.apple.Xcode.506/SharedPrecompiledHeaders/TestApp-Prefix-effbisytodzylpbandpkwztmvrpz/TestApp-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/1h/3v25wrjd19g3p1j8w2b207200000gt/C/com.apple.Xcode.506/SharedPrecompiledHeaders/TestApp-Prefix-effbisytodzylpbandpkwztmvrpz/TestApp-Prefix.pch.d36"6063B7DA-294C-4297-B11B-AF61099281E4-
+
+CProcessPCH /var/folders/1h/3v25wrjd19g3p1j8w2b207200000gt/C/com.apple.Xcode.506/SharedPrecompiledHeaders/TestApp-Prefix-fthppyroyxicmldoybkbforoiila/TestApp-Prefix.pch.pth TestApp/TestApp-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382358942.766360
+e382358943.015411
+r1
+xProcessPCH
+x/var/folders/1h/3v25wrjd19g3p1j8w2b207200000gt/C/com.apple.Xcode.506/SharedPrecompiledHeaders/TestApp-Prefix-fthppyroyxicmldoybkbforoiila/TestApp-Prefix.pch.pth
+xTestApp/TestApp-Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile TestApp/TestApp-Prefix.pchc153c49e55cab641^77f4039f55cab641^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/vaibhavmehta/Desktop/TestApp/TestApp/TestApp-Prefix.pch0000000000000000^3445"ProcessPCH /var/folders/1h/3v25wrjd19g3p1j8w2b207200000gt/C/com.apple.Xcode.506/SharedPrecompiledHeaders/TestApp-Prefix-fthppyroyxicmldoybkbforoiila/TestApp-Prefix.pch.pth TestApp/TestApp-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vaibhavmehta/Desktop/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-project-headers.hmap -I/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources/armv7s -I/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources -F/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 --serialize-diagnostics /var/folders/1h/3v25wrjd19g3p1j8w2b207200000gt/C/com.apple.Xcode.506/SharedPrecompiledHeaders/TestApp-Prefix-fthppyroyxicmldoybkbforoiila/TestApp-Prefix.pch.dia -c /Users/vaibhavmehta/Desktop/TestApp/TestApp/TestApp-Prefix.pch -o /var/folders/1h/3v25wrjd19g3p1j8w2b207200000gt/C/com.apple.Xcode.506/SharedPrecompiledHeaders/TestApp-Prefix-fthppyroyxicmldoybkbforoiila/TestApp-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/1h/3v25wrjd19g3p1j8w2b207200000gt/C/com.apple.Xcode.506/SharedPrecompiledHeaders/TestApp-Prefix-fthppyroyxicmldoybkbforoiila/TestApp-Prefix.pch.d36"AA9C2C65-88A2-4AD7-A7AC-703B1399E99E-
+
+CProcessPCH /var/folders/fw/fd3d6wnx03s1skw9hnvnp97c0000gt/C/com.apple.Xcode.506/SharedPrecompiledHeaders/TestApp-Prefix-adsqfparyxavqwcnxzmihfxldtdp/TestApp-Prefix.pch.pth TestApp/TestApp-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382358670.878895
+e382358671.901159
+r1
+xProcessPCH
+x/var/folders/fw/fd3d6wnx03s1skw9hnvnp97c0000gt/C/com.apple.Xcode.506/SharedPrecompiledHeaders/TestApp-Prefix-adsqfparyxavqwcnxzmihfxldtdp/TestApp-Prefix.pch.pth
+xTestApp/TestApp-Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile TestApp/TestApp-Prefix.pch1d1fe18e54cab641^c72ce78f54cab641^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Users/vaibhav/Desktop/TestApp/TestApp/TestApp-Prefix.pch0000000000000000^3389"ProcessPCH /var/folders/fw/fd3d6wnx03s1skw9hnvnp97c0000gt/C/com.apple.Xcode.506/SharedPrecompiledHeaders/TestApp-Prefix-adsqfparyxavqwcnxzmihfxldtdp/TestApp-Prefix.pch.pth TestApp/TestApp-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vaibhav/Desktop/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-project-headers.hmap -I/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources/armv7s -I/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources -F/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 --serialize-diagnostics /var/folders/fw/fd3d6wnx03s1skw9hnvnp97c0000gt/C/com.apple.Xcode.506/SharedPrecompiledHeaders/TestApp-Prefix-adsqfparyxavqwcnxzmihfxldtdp/TestApp-Prefix.pch.dia -c /Users/vaibhav/Desktop/TestApp/TestApp/TestApp-Prefix.pch -o /var/folders/fw/fd3d6wnx03s1skw9hnvnp97c0000gt/C/com.apple.Xcode.506/SharedPrecompiledHeaders/TestApp-Prefix-adsqfparyxavqwcnxzmihfxldtdp/TestApp-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/fw/fd3d6wnx03s1skw9hnvnp97c0000gt/C/com.apple.Xcode.506/SharedPrecompiledHeaders/TestApp-Prefix-adsqfparyxavqwcnxzmihfxldtdp/TestApp-Prefix.pch.d36"0EFD5360-BEFA-4014-B3EA-7F5A70AEC088-
+
+CProcessPCH /var/folders/fw/fd3d6wnx03s1skw9hnvnp97c0000gt/C/com.apple.Xcode.506/SharedPrecompiledHeaders/TestApp-Prefix-ejyvscmjksbghgfkrrklvpjapqgg/TestApp-Prefix.pch.pth TestApp/TestApp-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382358670.878407
+e382358671.792670
+r1
+xProcessPCH
+x/var/folders/fw/fd3d6wnx03s1skw9hnvnp97c0000gt/C/com.apple.Xcode.506/SharedPrecompiledHeaders/TestApp-Prefix-ejyvscmjksbghgfkrrklvpjapqgg/TestApp-Prefix.pch.pth
+xTestApp/TestApp-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile TestApp/TestApp-Prefix.pchc310e18e54cab641^4f06cb8f54cab641^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Users/vaibhav/Desktop/TestApp/TestApp/TestApp-Prefix.pch0000000000000000^3386"ProcessPCH /var/folders/fw/fd3d6wnx03s1skw9hnvnp97c0000gt/C/com.apple.Xcode.506/SharedPrecompiledHeaders/TestApp-Prefix-ejyvscmjksbghgfkrrklvpjapqgg/TestApp-Prefix.pch.pth TestApp/TestApp-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vaibhav/Desktop/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-project-headers.hmap -I/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources/armv7 -I/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources -F/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 --serialize-diagnostics /var/folders/fw/fd3d6wnx03s1skw9hnvnp97c0000gt/C/com.apple.Xcode.506/SharedPrecompiledHeaders/TestApp-Prefix-ejyvscmjksbghgfkrrklvpjapqgg/TestApp-Prefix.pch.dia -c /Users/vaibhav/Desktop/TestApp/TestApp/TestApp-Prefix.pch -o /var/folders/fw/fd3d6wnx03s1skw9hnvnp97c0000gt/C/com.apple.Xcode.506/SharedPrecompiledHeaders/TestApp-Prefix-ejyvscmjksbghgfkrrklvpjapqgg/TestApp-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/fw/fd3d6wnx03s1skw9hnvnp97c0000gt/C/com.apple.Xcode.506/SharedPrecompiledHeaders/TestApp-Prefix-ejyvscmjksbghgfkrrklvpjapqgg/TestApp-Prefix.pch.d36"3F5A7B10-6493-4AA6-AAA6-F1A6A2728B55-
+
+CProcessProductPackaging "/Users/vaibhav/Library/MobileDevice/Provisioning Profiles/EAC6D439-AA8D-44DC-AF67-7A3732C18F15.mobileprovision" /Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/embedded.mobileprovision
+s382358674.908885
+e382358674.912336
+r1
+xProcessProductPackaging
+x/Users/vaibhav/Library/MobileDevice/Provisioning Profiles/EAC6D439-AA8D-44DC-AF67-7A3732C18F15.mobileprovision
+x/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection196"ProcessProductPackaging "/Users/vaibhav/Library/MobileDevice/Provisioning Profiles/EAC6D439-AA8D-44DC-AF67-7A3732C18F15.mobileprovision" build/Release-iphoneos/TestApp.app/embedded.mobileprovision2ec6e89254cab641^a29be99254cab641^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/embedded.mobileprovision0000000000000000^694"ProcessProductPackaging "/Users/vaibhav/Library/MobileDevice/Provisioning Profiles/EAC6D439-AA8D-44DC-AF67-7A3732C18F15.mobileprovision" build/Release-iphoneos/TestApp.app/embedded.mobileprovision    cd /Users/vaibhav/Desktop/TestApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-productPackagingUtility "/Users/vaibhav/Library/MobileDevice/Provisioning Profiles/EAC6D439-AA8D-44DC-AF67-7A3732C18F15.mobileprovision" -o /Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/embedded.mobileprovision36"9B875E71-CA8C-45BE-85CB-B96DA5A352E2-
+
+CProcessProductPackaging "/Users/vaibhavmehta/Library/MobileDevice/Provisioning Profiles/EAC6D439-AA8D-44DC-AF67-7A3732C18F15.mobileprovision" /Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/embedded.mobileprovision
+s382358943.406817
+e382358943.409205
+r1
+xProcessProductPackaging
+x/Users/vaibhavmehta/Library/MobileDevice/Provisioning Profiles/EAC6D439-AA8D-44DC-AF67-7A3732C18F15.mobileprovision
+x/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection201"ProcessProductPackaging "/Users/vaibhavmehta/Library/MobileDevice/Provisioning Profiles/EAC6D439-AA8D-44DC-AF67-7A3732C18F15.mobileprovision" build/Release-iphoneos/TestApp.app/embedded.mobileprovision4436689f55cab641^cac1689f55cab641^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/embedded.mobileprovision0000000000000000^720"ProcessProductPackaging "/Users/vaibhavmehta/Library/MobileDevice/Provisioning Profiles/EAC6D439-AA8D-44DC-AF67-7A3732C18F15.mobileprovision" build/Release-iphoneos/TestApp.app/embedded.mobileprovision    cd /Users/vaibhavmehta/Desktop/TestApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-productPackagingUtility "/Users/vaibhavmehta/Library/MobileDevice/Provisioning Profiles/EAC6D439-AA8D-44DC-AF67-7A3732C18F15.mobileprovision" -o /Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/embedded.mobileprovision36"AD64A41B-C037-420C-B164-81E46C7C1EC8-
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp.xcent
+s382358719.817674
+e382358719.833022
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist
+x/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection209"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist build/TestApp.build/Release-iphoneos/TestApp.build/TestApp.xcente36dd1bf54cab641^6d56d5bf54cab641^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp.xcent0000000000000000^746"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist build/TestApp.build/Release-iphoneos/TestApp.build/TestApp.xcent    cd /Users/vaibhav/Desktop/TestApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/vaibhav/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp.xcent36"50414A47-B818-421F-8C50-AD13123AA837-
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp.xcent
+s382434220.480618
+e382434220.482936
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist
+x/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection209"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist build/TestApp.build/Release-iphoneos/TestApp.build/TestApp.xcent9b1b7bac7bcbb641^c2a17bac7bcbb641^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp.xcent0000000000000000^762"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist build/TestApp.build/Release-iphoneos/TestApp.build/TestApp.xcent    cd /Users/vaibhavmehta/Desktop/TestApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/vaibhavmehta/Desktop/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp.xcent36"0EA8FC1E-8F11-41E2-AAC5-C3963B958B93-
+
+CTouch /Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app
+s382358719.794928
+e382358719.808677
+r1
+xTouch
+x/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Touch /Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.appb395cbbf54cab641^e606cfbf54cab641^---0#0#0#--383"Touch build/Release-iphoneos/TestApp.app    cd /Users/vaibhav/Desktop/TestApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /usr/bin/touch -c /Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app36"E675A424-9EA2-40F5-B781-A58C6CDED503-
+
+CTouch /Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app
+s382434220.467499
+e382434220.472505
+r1
+xTouch
+x/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Touch /Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app0ebf77ac7bcbb641^adf678ac7bcbb641^---0#0#0#--399"Touch build/Release-iphoneos/TestApp.app    cd /Users/vaibhavmehta/Desktop/TestApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app36"97B814F1-28E7-4611-90C7-869A8D7C26F5-
+
+CValidate /Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app
+s382358720.382260
+e382358723.057179
+r1
+xValidate
+x/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app
+owarning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)
+oUnable to validate your application. - (null)
+o
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Validate build/Release-iphoneos/TestApp.app95f361c054cab641^deaf0ec354cab641^-45"Unable to validate your application. - (null)1(21%IDEActivityLogMessage2@202" iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)192"IPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57382358723#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#16"Validate Warning--0#0#0#-19%DVTDocumentLocation4@82"file://localhost/Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app/0000000000000000^527"Validate build/Release-iphoneos/TestApp.app    cd /Users/vaibhav/Desktop/TestApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/vaibhav/Desktop/TestApp/build/Release-iphoneos/TestApp.app36"36B56A21-8A57-44B8-B631-6E27E7741FFD-
+
+CValidate /Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app
+s382434220.626007
+e382434222.233713
+r1
+xValidate
+x/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Validate build/Release-iphoneos/TestApp.appc153a0ac7bcbb641^edd53bae7bcbb641^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app/0000000000000000^543"Validate build/Release-iphoneos/TestApp.app    cd /Users/vaibhavmehta/Desktop/TestApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/vaibhavmehta/Desktop/TestApp/build/Release-iphoneos/TestApp.app36"FFC1D5E3-DBB6-4DF0-B73C-C89EE8FB482B-
+

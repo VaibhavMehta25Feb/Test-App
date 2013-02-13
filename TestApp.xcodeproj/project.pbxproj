@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48C7FB3B16CA5891006AAE65 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C7FB3A16CA5891006AAE65 /* icon.png */; };
 		806804CD16CA51BC0096D7C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806804CC16CA51BC0096D7C2 /* UIKit.framework */; };
 		806804CF16CA51BC0096D7C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806804CE16CA51BC0096D7C2 /* Foundation.framework */; };
 		806804D116CA51BC0096D7C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806804D016CA51BC0096D7C2 /* CoreGraphics.framework */; };

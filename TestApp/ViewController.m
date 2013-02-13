@@ -14,9 +14,21 @@
 
 @implementation ViewController
 
+@synthesize m_objwebView;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    NSBundle *bundle = [NSBundle mainBundle];
+    NSDictionary *info = [bundle infoDictionary];
+    NSString *prodName = [info objectForKey:@"WebUrlName"];
+    
+    
+    NSURL *url2=[NSURL URLWithString:prodName];
+    NSURLRequest *req2=[NSURLRequest requestWithURL:url2];
+    [m_objwebView loadRequest:req2];
+    [m_objwebView setScalesPageToFit:YES];
+
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

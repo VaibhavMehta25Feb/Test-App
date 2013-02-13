@@ -10,4 +10,5 @@
 
 @interface ViewController : UIViewController
 
+@property(strong,nonatomic) IBOutlet UIWebView *m_objwebView;
 @end

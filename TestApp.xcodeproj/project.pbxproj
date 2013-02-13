@@ -21,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		48C7FB3A16CA5891006AAE65 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = SOURCE_ROOT; };
 		806804C816CA51BC0096D7C2 /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		806804CC16CA51BC0096D7C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		806804CE16CA51BC0096D7C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -96,6 +97,7 @@
 		806804D316CA51BC0096D7C2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				48C7FB3A16CA5891006AAE65 /* icon.png */,
 				806804D416CA51BC0096D7C2 /* TestApp-Info.plist */,
 				806804D516CA51BC0096D7C2 /* InfoPlist.strings */,
 				806804D816CA51BC0096D7C2 /* main.m */,
@@ -163,6 +165,7 @@
 				806804E116CA51BC0096D7C2 /* Default@2x.png in Resources */,
 				806804E316CA51BC0096D7C2 /* Default-568h@2x.png in Resources */,
 				806804E916CA51BC0096D7C2 /* ViewController.xib in Resources */,
+				48C7FB3B16CA5891006AAE65 /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,10 +256,14 @@
 		806804ED16CA51BC0096D7C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ashish Upadhyay (3B3F7KW7EG)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestApp/TestApp-Prefix.pch";
 				INFOPLIST_FILE = "TestApp/TestApp-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "EAC6D439-AA8D-44DC-AF67-7A3732C18F15";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -264,10 +271,14 @@
 		806804EE16CA51BC0096D7C2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ashish Upadhyay (3B3F7KW7EG)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestApp/TestApp-Prefix.pch";
 				INFOPLIST_FILE = "TestApp/TestApp-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "EAC6D439-AA8D-44DC-AF67-7A3732C18F15";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -291,6 +302,7 @@
 				806804EE16CA51BC0096D7C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
